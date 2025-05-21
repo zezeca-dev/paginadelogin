@@ -7,20 +7,52 @@
     <title>Página de login</title>
 </head>
 <body>
-    <form action="#" method="post">
-        <h3>Página de Login</h3>
-        <label for="usuario">Usuário:</label>
-        <input type="text" name="usuario" id="usuario" placeholder="Insira o seu nome de usuário" size="30">
-        <br><br>
-        <label for="senha">Senha:</label>
-        <input type="text" name="senha" id="senha" placeholder="Insira sua senha" size="30">
-        <br><br>
-        <button type="submit">Login</button>
-        <button type="reset">Limpar dados</button>
-        <br>
-        <a herf="http://127.0.0.1:5500/atividade-login/esqueceuasenha.html" target="_blank">
-            <p>Esqueceu a senha?</p>
-        </a>
-    </form>
+    <style>
+        .alinhar{
+            text-align: center;
+        }
+        .botoes input{
+            border-radius: 20px;
+            text-indent: 5%;
+            font-family: "Lilita One";
+        }
+
+        .botao button{
+            border-radius: 20px;
+            text-indent: 5%;
+            font-family: "Lilita One";
+            size: 5;
+        }
+    </style>
+
+    <div class="container">
+        <div class="box">
+            <form action="#" method="post">
+                <div class="alinhar">
+                    <h3>Página de Login</h3>
+                </div>
+                <div class="botoes">
+                    <label for="usuario">Usuário:</label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Insira o seu nome de usuário" size="30">
+                </div>
+                <br><br>
+                <div class="botoes">
+                    <label for="senha">Senha:</label>
+                    <input type="text" name="senha" id="senha" placeholder="Insira sua senha" size="30">
+                </div>
+                <br><br>
+                <div class="alinhar">
+                        <div class="botao">
+                        <button type="submit">Login</button>
+                        <button type="reset">Limpar</button>
+                        <br>
+                        <a href="http://127.0.0.1:5500/atividade-login/esqueceuasenha.html" target="_blank">
+                            <p>Esqueceu a senha?</p>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
