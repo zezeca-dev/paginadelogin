@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body{
+    font-family: "Lilita One";
+}
+
+.container{
+    display: flex;
+    background-color: rgb(253, 253, 253);
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    background-image: url("padraoazul.jpg");
+    background-size: cover;
+}
+
+.box{
+    width: 250px;
+    height: 170px;
+    background-color: rgb(206, 206, 206);
+    border: 2px solid black;
+    box-shadow: 10px 10px 7px 1px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 10px 10px 7px 1px rgba(0,0,0,0.73);
+    -moz-box-shadow: 10px 10px 7px 1px rgba(0,0,0,0.73);
+    border-radius: 30px;
+    align-self: center;
+    padding: 10px;
+}
