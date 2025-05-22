@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esqueceu a senha</title>
+    <link rel="stylesheet" href="esqueceuasenha.css">
 </head>
 <body>
-    <h1><b></b></h1>
+    <style>
+        .alinhar{
+            text-align: center;
+        }
+        .botoes input{
+            border-radius: 20px;
+            text-indent: 5%;
+            font-family: "Lilita One";
+        }
+
+        .botao button{
+            border-radius: 20px;
+            text-indent: 5%;
+            font-family: "Lilita One";
+            size: 5;
+        }
+    </style>
+
+    <div class="container">
+        <div class="box">
+            <form action="#" method="post">
+                <div class="alinhar">
+                    <h3>Recuperação de senha</h3>
+                </div>
+                <div class="botoes">
+                    <label for="emal">Digite seu email:</label>
+                    <input type="email" name="email" id="email" placeholder="Insira o seu email" size="30">
+                </div>
+                <br>
+                <div class="alinhar">
+                    <div class="botao">
+                        <a href="http://127.0.0.1:5500/pagina%20de%20login/pagerror.html" target="_blank">
+                            <button type="submit">Enviar</button>
+                        </a>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
